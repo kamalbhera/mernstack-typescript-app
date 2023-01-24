@@ -1,0 +1,172 @@
+{
+  "logIn": {
+    "title": "Log in"
+  },
+  "signUp": {
+    "title": "Sign up"
+  },
+  "header": {
+    "language": "En",
+    "home": "Home",
+    "logIn": "Log in",
+    "signOut": "Sign out"
+  },
+  "footer": { "madeBy": "made by" },
+  "homePage": {
+    "title": "Home page",
+    "navCard": {
+      "addPoll": "Add poll",
+      "polls": "Polls",
+      "addTemplate": "Add template",
+      "templates": "Templates",
+      "users": "Users",
+      "results": "Results"
+    }
+  },
+  "sidebar": {
+    "myPolls": "My polls",
+    "templates": "Poll templates",
+    "results": "Results",
+    "users": "Users"
+  },
+  "table": {
+    "total": "Total: {{totalItems}}",
+    "page": "Page {{pageNumber}} from {{totalPages}}"
+  },
+  "pollsPage": {
+    "title": "My polls",
+    "newPoll": "New poll",
+    "name": "Name",
+    "createdAt": "Created at",
+    "answers": "Answers",
+    "link": "Link",
+    "actions": "Actions",
+    "linkLabel": "Link to poll",
+    "noResults": "No polls yet"
+  },
+  "pollPage": {
+    "title": "Poll",
+    "nextPage": "Next page",
+    "prevPage": "Previous page",
+    "saveResult": "Save result",
+    "message": {
+      "notEmptyRequiredFields": "Fill in the required fields",
+      "notEmptyResultPage": "Can't save empty result"
+    }
+  },
+  "editPollsPage": {
+    "pollsCreate": "Create poll",
+    "pollsEdit": "Edit poll",
+    "templatesCreate": "Create template",
+    "templatesEdit": "Edit template",
+    "savePoll": "Save poll",
+    "saveTemplate": "Save template",
+    "saveAsTemplate": "Save as template",
+    "cancel": "Cancel",
+    "addPage": "Add page",
+    "pollTitle": "Poll title",
+    "pollTitleValue": ["New", "poll", "template"],
+    "totalQuestions": "Total questions",
+    "totalPages": "Total pages",
+    "page": "Page",
+    "types": {
+      "typesTitle": "Add question",
+      "answerOtionsOne": "Single choice",
+      "answerOtionsSeveral": "Multiple choice",
+      "answerText": "Free text",
+      "answerRating": "Star rating",
+      "answerRange": "Range"
+    },
+    "params": {
+      "paramsTitle": "Poll options",
+      "anonimous": "Anonimous poll",
+      "questionNumbers": "Show question numbers",
+      "pageTitles": "Show page titles",
+      "randomQuestionsOrder": "Random questions order",
+      "requiredFielddMarks": "Required field marks",
+      "progressIndicator": "Progress indicator"
+    },
+    "question": {
+      "required": "Required",
+      "oneAnswer": "Question with one answer",
+      "multipleAnswer": "Question with multiple answers",
+      "textAnswer": "Question with text answers",
+      "ratingAnswer": "Question with star rating",
+      "rangeAnswer": " Question with range"
+    },
+    "message": {
+      "pollCreated": "New poll was successfully created",
+      "pollUpdated": "Poll was successfully updated",
+      "pollDeleted": "Poll was successfully deleted",
+      "templateCreated": "New template was successfully created",
+      "templateUpdated": "Template was successfully updated",
+      "templateDeleted": "Template was successfully deleted"
+    }
+  },
+  "resutsPage": {
+    "title": "Polls results",
+    "name": "Name",
+    "createdAt": "Created at",
+    "answers": "Answers",
+    "results": "Results",
+    "linkLabel": "Link to results",
+    "noResults": "No results yet"
+  },
+  "templatesPage": {
+    "title": "My templates",
+    "newTemplate": "New template",
+    "createPoll": "Create poll",
+    "totalQuestions": "Questions",
+    "totalPages": "Pages",
+    "changed": "Changed",
+    "noResults": "No templates yet"
+  },
+  "usersPage": {
+    "title": "Users",
+    "name": "Name",
+    "role": "Role",
+    "createdAt": "Created at",
+    "polls": "Polls",
+    "admin": "Admin",
+    "user": "User"
+  },
+  "statisticsPage": {
+    "summary": "Summary data",
+    "separate": "Separate answers",
+    "answered": "Answered",
+    "skipped": "Skipped",
+    "describe_v1": "answers",
+    "describe_v2": "answers ",
+    "describe_v3": "answer"
+  },
+  "form": {
+    "warning": {
+      "required": "Required field",
+      "unacceptable": "{{fieldName}} has unacceptable symbol",
+      "tooBig": "{{fieldName}} name is too big",
+      "numberIsTooBig": "{{fieldName}} is too big",
+      "notAllowed": "Workplace with this number alredy exists"
+    },
+    "button": {
+      "createButton": "Create",
+      "saveButton": "Save",
+      "cancelButton": "Cancel",
+      "deleteButton": "Delete",
+      "ok": "Ok"
+    }
+  },
+  "modal": {
+    "headlineDeletePoll": "Delete poll?",
+    "headlineDeleteTemplate": "Delete template?",
+    "headlineSavePoll": "Save poll?",
+    "headlineSaveTemplate": "Save template?",
+    "headlineCancel": "Cancel?",
+    "message": {
+      "deletePoll": "Are you sure you want to delete the poll?",
+      "deleteTemplate": "Are you sure you want to delete the template?",
+      "savePoll": "Are you sure you want to save the poll?",
+      "saveTemplate": "Are you sure you want to save the template?",
+      "cancel": "Are you sure you want to exit?"
+    }
+  }
+}

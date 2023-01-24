@@ -1,0 +1,18 @@
+@import 'src/styles/variables.scss';
+
+.edit {
+  &__inputWithIndex{
+    width: 350px;
+    margin-bottom: 5px;
+    margin-left: 11px !important;
+    & span {
+      margin-right: 10px;
+    }
+    & input {
+      width: 300px;
+    }
+    @media (max-width: $small-weight) {
+      width: 170px;
+    }
+  }
+}

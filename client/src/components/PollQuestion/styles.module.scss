@@ -1,0 +1,10 @@
+.results {
+  &__item {
+    padding: 10px 0;
+    min-height: 100px;
+    & div {
+      display: flex;
+      line-height: 20px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import 'src/styles/variables.scss';
+
+.editRating {
+  font-size: 30px;
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  margin-top: 20px;
+  &_input {
+    display: none;
+    &:checked {
+      & ~ label:before {
+        cursor: pointer;
+        content: '★';
+        color: gold;
+        text-shadow: 1px 1px $black-color;
+      }
+    }
+    &:not(:checked) {
+      & ~ label:before {
+        content: '☆';
+        cursor: pointer;
+        color: $black-color;
+        text-shadow: none;
+      }
+    }
+  }
+}

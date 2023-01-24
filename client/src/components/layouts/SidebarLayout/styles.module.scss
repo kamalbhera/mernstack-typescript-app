@@ -1,0 +1,23 @@
+@import 'src/styles/variables.scss';
+
+.container {
+  display: flex;
+  flex-grow: 1;
+  &__main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 0 0 15px 0;
+    background-color: $barely-gray-color;
+    @media (max-width: $small-weight) {
+      width: auto;
+    }
+  }
+  @media (max-width: $medium-weight) {
+    display: block;
+  }
+}

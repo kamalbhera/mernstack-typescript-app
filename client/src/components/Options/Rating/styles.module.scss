@@ -1,0 +1,36 @@
+@import 'src/styles/variables.scss';
+
+.option {
+  &__answer_warning {
+    display: block;
+    color: red;
+  }
+  &__answer_title {
+    padding-bottom: 20px;
+  }
+  &__rating {
+    font-size: 30px;
+    display: flex;
+    max-width: 200px;
+    justify-content: space-between;
+    &_input {
+      display: none;
+      &:checked {
+        & ~ label:before {
+          cursor: pointer;
+          content: '★';
+          color: gold;
+          text-shadow: 1px 1px $black-color;
+        }
+      }
+      &:not(:checked) {
+        & ~ label:before {
+          content: '☆';
+          cursor: pointer;
+          color: $black-color;
+          text-shadow: none;
+        }
+      }
+    }
+  }
+}

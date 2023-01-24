@@ -1,0 +1,15 @@
+@import 'src/styles/variables.scss';
+.titleRow {
+  justify-content: flex-start;
+  height: 50px;
+
+  &__title {
+    margin-right: 10px;
+    min-width: 200px;
+    text-align: center;
+    border-bottom: 5px solid $ochre-color;
+  }
+  & .button {
+    margin-bottom: 0;
+  }
+}

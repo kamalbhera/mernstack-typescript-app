@@ -1,0 +1,36 @@
+@import 'src/styles/variables.scss';
+@import 'src/styles/index.scss';
+
+.polls {
+  &__actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & svg {
+      margin: 0 10px;
+    }
+  }
+  &__tr {
+    &:not(:last-child) {
+      & td {
+        border-bottom: 1px solid $light-sage-color;
+      }
+    }
+    &:hover {
+      & td {
+        background-color: $mint-color;
+      }
+    }
+    &_link {
+      a {
+        padding: 10px;
+      }
+      &:hover {
+        a {
+          border-radius: 15px;
+          background-color: $ochre-color;
+        }
+      }
+    }
+  }
+}

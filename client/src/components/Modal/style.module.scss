@@ -1,0 +1,69 @@
+@import 'src/styles/variables.scss';
+.substrate {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &_active {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.modalWindow {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.06);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  &__header {
+    padding: 20px;
+    background: $dark-sage-color;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+  }
+  &__content {
+    background-color: $white-color;
+    padding: 20px;
+    border-radius: 0px 0px 15px 15px;
+  }
+  &__message {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  &__btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__btn {
+    border: none;
+    height: 5vh;
+    width: 30%;
+    border-radius: 2px;
+    font-family: 'RedHatDisplay';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+  }
+  &__btn-cancel {
+    background: transparent;
+    color: $dark-sage-color;
+    border: 1px solid $dark-sage-color;
+  }
+}

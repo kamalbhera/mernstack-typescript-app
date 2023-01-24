@@ -1,0 +1,41 @@
+@import 'src/styles/variables.scss';
+
+.option {
+  &__answer_warning {
+    display: block;
+    color: red;
+  }
+  &__answer_title {
+    padding-bottom: 20px;
+  }
+  &__range_container {
+    display: block !important;
+    width: 250px;
+    @media (max-width: $small-weight) {
+      min-width: 205px;
+    }
+  }
+  &__range_wrapper {
+    display: flex;
+  }
+  &__range_input {
+    min-width: 250px;
+    @media (max-width: $small-weight) {
+      min-width: 205px;
+    }
+  }
+  &__range_output {
+    margin: 0 10px;
+    position: relative;
+  }
+  &__range_value {
+    display: block;
+    margin-left: 3px;
+    padding: 10px 0 0 0;
+    position: absolute;
+    text-align: center;
+    top: -50px;
+    width: 20px;
+    z-index: 1;
+  }
+}

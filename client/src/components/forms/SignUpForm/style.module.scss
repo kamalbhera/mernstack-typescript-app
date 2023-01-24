@@ -1,0 +1,75 @@
+@import 'src/styles/variables.scss';
+.form {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  box-shadow: 10px 10px 5px 0px rgba(34, 60, 80, 0.2);
+  background-color: $barely-gray-color;
+  min-width: 320px;
+  border-radius: 15px;
+  &__headline,
+  &__footerLine {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 26px;
+    text-align: center;
+  }
+  &__footerLine {
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: $dark-gray-color;
+  }
+  &__input-wr {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__input {
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+  &__input-wr_row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    & label {
+      padding-left: 10px;
+    }
+  }
+  &__submit-btn {
+    background-color: $dark-sage-color;
+    border: none;
+    height: 50px;
+    color: $white-color;
+    font-size: 14px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  &__wr {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &__eye {
+    position: absolute;
+    right: 5%;
+    height: 100%;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: none;
+  }
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}

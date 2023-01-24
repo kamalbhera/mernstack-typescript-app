@@ -1,0 +1,18 @@
+@import 'src/styles/variables.scss';
+
+.edit {
+  &__answer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    & span {
+      padding-left: 10px;
+    }
+    &_text {
+      min-width: 170px;
+    }
+    &_radio {
+      cursor: pointer;
+    }
+  }
+}

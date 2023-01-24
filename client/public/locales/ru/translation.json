@@ -1,0 +1,171 @@
+{
+  "logIn": {
+    "title": "Войти"
+  },
+  "signUp": {
+    "title": "Зарегистрироваться"
+  },
+  "header": {
+    "language": "Ru",
+    "home": "Главная",
+    "logIn": "Войти",
+    "signOut": "Выйти"
+  },
+  "footer": { "madeBy": "создано" },
+  "homePage": {
+    "title": "Главная",
+    "navCard": {
+      "addPoll": "Добавить опрос",
+      "polls": "Опросы",
+      "addTemplate": "Добавить шаблон",
+      "templates": "Шаблоны",
+      "users": "Пользователи",
+      "results": "Результаты"
+    }
+  },
+  "sidebar": {
+    "myPolls": "Мои опросы",
+    "templates": "Шаблоны опросов",
+    "results": "Результаты",
+    "users": "Пользователи"
+  },
+  "table": {
+    "total": "Всего: {{totalItems}}",
+    "page": "Страница {{pageNumber}} из {{totalPages}}"
+  },
+  "pollsPage": {
+    "title": "Мои опросы",
+    "newPoll": "Новый опрос",
+    "name": "Название",
+    "createdAt": "Создан",
+    "answers": "Ответы",
+    "link": "Ссылка",
+    "actions": "Действия",
+    "linkLabel": "Ссылка на опрос",
+    "noResults": "Еще нет опросов"
+  },
+  "pollPage": {
+    "title": "Опрос",
+    "nextPage": "Следующая страница",
+    "prevPage": "Предыдущая страница",
+    "saveResult": "Сохранить результат",
+    "message": {
+      "notEmptyRequiredFields": "Заполните обязательные поля",
+      "notEmptyResultPage": "Нельзя сохранить пустой результат"
+    }
+  },
+  "templatesPage": {
+    "title": "Шаблоны опросов",
+    "newTemplate": "Новый шаблон",
+    "createPoll": "Создать опрос",
+    "totalQuestions": "Вопросов",
+    "totalPages": "Cтраниц",
+    "changed": "Изменен",
+    "noResults": "Еще нет шаблонов"
+  },
+  "editPollsPage": {
+    "pollsCreate": "Создать опрос",
+    "pollsEdit": "Редактировать опрос",
+    "templatesCreate": "Создать шаблон",
+    "templatesEdit": "Редактировать шаблон",
+    "savePoll": "Сохранить опрос",
+    "saveTemplate": "Сохранить шаблон",
+    "saveAsTemplate": "Сохранить как шаблон",
+    "cancel": "Отмена",
+    "addPage": "Добавить страницу",
+    "pollTitle": "Название опроса",
+    "pollTitleValue": ["Новый", "опрос", "шаблон"],
+    "totalQuestions": "Вопросов",
+    "totalPages": "Cтраниц",
+    "page": "Cтраница",
+    "types": {
+      "typesTitle": "Добавить вопрос",
+      "answerOtionsOne": "Варианты ответа (один)",
+      "answerOtionsSeveral": "Варианты ответа (несколько)",
+      "answerText": "Вопрос с текстовым ответом",
+      "answerRating": "Рейтинг в звездах",
+      "answerRange": "Шкала"
+    },
+    "params": {
+      "paramsTitle": "Параметры опроса",
+      "anonimous": "Анонимный опрос",
+      "questionNumbers": "Номера вопросов",
+      "pageTitles": "Заголовки страниц",
+      "randomQuestionsOrder": "Случайный порядок вопросов",
+      "requiredFielddMarks": "Звездочки обязательных полей",
+      "progressIndicator": "Индикатор выполнения"
+    },
+    "question": {
+      "required": "Обязательный",
+      "oneAnswer": "Вопрос с одним вариантом ответа",
+      "textAnswer": "Вопрос с текстовым ответом",
+      "ratingAnswer": "Рейтинг в звездах",
+      "rangeAnswer": " Вопрос-шкала"
+    },
+    "message": {
+      "pollCreated": "Новый опрос успешно создан",
+      "pollUpdated": "Опрос был успешно обновлен",
+      "pollDeleted": "Опрос был успешно удален",
+      "templateCreated": "Новый шаблон успешно создан",
+      "templateUpdated": "Шаблон был успешно обновлен",
+      "templateDeleted": "Шаблон был успешно удален"
+    }
+  },
+  "resutsPage": {
+    "title": "Результаты опросов",
+    "name": "Название",
+    "createdAt": "Создан",
+    "answers": "Ответы",
+    "results": "Результаты",
+    "linkLabel": "Ссылка на результаты",
+    "noResults": "Еще нет результатов"
+  },
+  "usersPage": {
+    "title": "Пользователи",
+    "name": "Имя",
+    "role": "Роль",
+    "createdAt": "Создан",
+    "polls": "Опросы",
+    "admin": "Админ",
+    "user": "Пользователь"
+  },
+  "statisticsPage": {
+    "summary": "Сводные данные по вопросам",
+    "separate": "Отдельные ответы",
+    "answered": "Ответили",
+    "skipped": "Пропустили",
+    "describe_v1": "ответов",
+    "describe_v2": "ответа ",
+    "describe_v3": "ответ"
+  },
+  "form": {
+    "warning": {
+      "required": "Обязательное поле",
+      "unacceptable": "{{fieldName}} содержит недопустимый символ",
+      "tooBig": "{{fieldName}} имеет недопустимую длину",
+      "numberIsTooBig": "{{fieldName}} имеет недопустимую длину",
+      "notAllowed": "Рабочее место с таким номером уже существует"
+    },
+    "button": {
+      "createButton": "Создать",
+      "saveButton": "Сохранить",
+      "cancelButton": "Отмена",
+      "deleteButton": "Удалить",
+      "ok": "Ok"
+    }
+  },
+  "modal": {
+    "headlineDeletePoll": "Удалить опрос?",
+    "headlineDeleteTemplate": "Удалить шаблон?",
+    "headlineSavePoll": "Сохранить опрос?",
+    "headlineSaveTemplate": "Сохранить шаблон?",
+    "headlineCancel": "Отмена?",
+    "message": {
+      "deletePoll": "Вы действительно хотите удалить опрос?",
+      "deleteTemplate": "Вы действительно хотите удалить шаблон?",
+      "savePoll": "Вы действительно хотите сохранить опрос?",
+      "saveTemplate": "Вы действительно хотите сохранить шаблон?",
+      "cancel": "Вы действительно хотите отменить изенения?"
+    }
+  }
+}

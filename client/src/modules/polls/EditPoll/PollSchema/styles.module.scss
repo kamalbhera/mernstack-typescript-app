@@ -1,0 +1,105 @@
+@import 'src/styles/variables.scss';
+@import 'src/styles/index.scss';
+
+.poll {
+  &__header {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    & span {
+      padding-right: 10px;
+    }
+    & input {
+      width: 300px;
+      padding: 5px;
+    }
+  }
+  &__header_title {
+    padding-bottom: 10px;
+  }
+
+  &__group_btns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media (max-width: $medium-weight) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &__left_btns {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 325px;
+    & div {
+      margin-right: 15px;
+    }
+
+    @media (max-width: $medium-weight) {
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      & div {
+        margin-right: 0;
+      }
+    }
+  }
+  &__right_btns {
+    @media (max-width: $medium-weight) {
+      display: flex;
+      flex-direction: column;
+      min-width: 325px;
+      align-items: center;
+    }
+  }
+  &__main_title {
+    padding: 20px;
+    & input{
+      padding: 5px;
+    }
+    & .icon {
+      position: absolute;
+      right: 16px;
+      top: 15px;
+    }
+  }
+  &__main {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $black-color;
+    position: relative;
+    background-color: $white-color;
+  }
+  &__question {
+    min-height: 50px;
+    display: flex;
+    padding: 10px;
+    border: 1px solid $black-color;
+  }
+  &__pages {
+    display: flex;
+    position: relative;
+    top: 1px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    z-index: 1;
+    & div {
+      background-color: $white-color;
+      border: 1px solid $black-color;
+      margin-right: 5px;
+      margin-top: 5px;
+      padding: 5px;
+      min-width: 110px;
+      border-radius: 0 15px 0 0;
+      cursor: pointer;
+    }
+  }
+  &__active_page {
+    border-bottom: 1px solid #fff !important;
+  }
+  &__blank {
+    height: 100px;
+    border: 1px solid black;
+    position: relative;
+    background-color: $white-color;
+  }
+}

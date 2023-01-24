@@ -1,0 +1,28 @@
+@import 'src/styles/variables.scss';
+
+.usersSelect {
+  width: 50%;
+  z-index: 2;
+  border-color: red !important;
+  margin-bottom: 20px;
+  @media (max-width: $large-weight) {
+    width: 100%;
+  }
+  & .usersSelect__option--is-focused {
+    background-color: $barely-gray-color;
+    color: $dark-sage-color;
+    cursor: pointer;
+  }
+  & .usersSelect__option--is-selected {
+    background-color: $dark-sage-color;
+    color: #fff;
+    font-weight: bold;
+  }
+  & .usersSelect__control {
+    border: none;
+  }
+  & .usersSelect__control--is-focused {
+    box-shadow: 0 0 4px $dark-sage-color;
+    border-color: none;
+  }
+}

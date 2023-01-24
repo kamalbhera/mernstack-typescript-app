@@ -1,0 +1,39 @@
+@import 'src/styles/variables.scss';
+
+.hpContainer {
+  display: flex;
+  flex-grow: 1;
+  &__main {
+    padding: 20px 10%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    overflow: hidden;
+    border-radius: 0 0 15px 0;
+    background-color: $barely-gray-color;
+    @media (max-width: $small-weight) {
+      width: auto;
+    }
+  }
+  @media (max-width: $medium-weight) {
+    display: block;
+  }
+}
+.inner {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  grid-gap: 30px;
+  min-height: 365px;
+  height: 100%;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  @media (max-width: $extra-large-weight) {
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+  }
+  @media (max-width: $medium-weight) {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+}

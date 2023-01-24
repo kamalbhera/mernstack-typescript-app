@@ -1,0 +1,11 @@
+@import 'src/styles/variables.scss';
+
+.customAbbreviation {
+  &__container {
+    display: flex;
+  }
+  &__inner {
+    margin-right: 10px;
+    color: $gray-color;
+  }
+}

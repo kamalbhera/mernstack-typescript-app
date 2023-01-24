@@ -1,0 +1,85 @@
+import * as React from 'react';
+
+function TemplateListIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      id="Icons"
+      version="1.1"
+      viewBox="0 0 32 32"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <line
+        fill="none"
+        stroke="#375541"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
+        strokeWidth="2"
+        x1="11"
+        x2="29"
+        y1="7"
+        y2="7"
+      />
+      <line
+        fill="none"
+        stroke="#375541"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit={10}
+        strokeWidth="2"
+        x1="11"
+        x2="22"
+        y1="16"
+        y2="16"
+      />
+      <line
+        fill="none"
+        stroke="#375541"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit={10}
+        strokeWidth="2"
+        x1="11"
+        x2="29"
+        y1="25"
+        y2="25"
+      />
+      <circle
+        cx="5"
+        cy="7"
+        fill="none"
+        r="2"
+        stroke="#375541"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit={10}
+        strokeWidth="2"
+      />
+      <circle
+        cx="5"
+        cy="16"
+        fill="none"
+        r="2"
+        stroke="#375541"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit={10}
+        strokeWidth="2"
+      />
+      <circle
+        cx="5"
+        cy="25"
+        fill="none"
+        r="2"
+        stroke="#375541"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit={10}
+        strokeWidth="2"
+      />
+    </svg>
+  );
+}
+
+export default TemplateListIcon;

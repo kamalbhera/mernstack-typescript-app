@@ -1,0 +1,18 @@
+@import 'src/styles/variables.scss';
+
+.reversed {
+  transform: rotate(180deg);
+}
+.pagination {
+  & span {
+    padding: 0 15px;
+    cursor: pointer;
+  }
+}
+.notAllowed {
+  color: $light-gray-color;
+  cursor: not-allowed !important;
+}
+.normal {
+  color: $black-color;
+}

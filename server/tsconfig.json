@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "moduleResolution": "node",
+  }
+}

@@ -1,0 +1,37 @@
+@import 'src/styles/variables.scss';
+
+.progressBar {
+  &__container {
+    height: 20px;
+    width: 350px;
+    border: 1px solid $black-color;
+    @media (max-width: $small-weight) {
+      width: 150px;
+    }
+  }
+  &__filter {
+    height: 100%;
+    background-color: $ochre-color;
+    border-radius: inherit;
+    text-align: right;
+    border-right: 1px solid $black-color;
+  }
+  &__label {
+    padding: 5;
+    color: $white-color;
+    font-weight: bold;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    & span {
+      &:first-child {
+        margin-right: 10px;
+      }
+      &:last-child {
+        margin-left: 10px;
+      }
+    }
+  }
+}

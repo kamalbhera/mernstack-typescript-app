@@ -1,0 +1,43 @@
+@import 'src/styles/variables.scss';
+
+.paramBar {
+  margin-top: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid $black-color;
+  background-color: $white-color;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 10px 10px 5px 0px rgba(34, 60, 80, 0.2);
+  @media (max-width: $extra-large-weight) {
+    margin-top: 0 !important;
+    height: 100%;
+  }
+  @media (max-width: $medium-weight) {
+    margin-top: 20px !important;
+  }
+  &__title {
+    background-color: $white-color;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid $black-color;
+    background-color: $dark-sage-color;
+    color: $white-color;
+  }
+  &__item {
+    padding: 15px 20px;
+    & label,
+    & input {
+      cursor: pointer;
+    }
+    & span {
+      padding-left: 10px;
+    }
+    &:hover {
+      background-color: $mint-color;
+      cursor: pointer;
+    }
+  }
+}

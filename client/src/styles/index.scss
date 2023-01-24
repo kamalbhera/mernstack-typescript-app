@@ -1,0 +1,43 @@
+@import 'src/styles/variables.scss';
+@import 'src/styles/overrideStyles';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+body {
+  color: $dark-gray-color;
+  font-weight: 700;
+  height: 100%;
+  margin: 0;
+}
+
+.react-toast-notifications__container {
+  margin-top: 100px;
+}
+
+table {
+  display: grid;
+}
+
+thead,
+tbody,
+tr {
+  display: contents;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+.icon {
+  cursor: pointer;
+}

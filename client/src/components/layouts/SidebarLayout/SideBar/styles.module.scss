@@ -1,0 +1,31 @@
+@import 'src/styles/variables.scss';
+
+.sideBar {
+  width: 245px;
+  display: block;
+  border-right: 1px solid $white-color;
+  border-radius: 0 0 0 15px;
+  background-color: $barely-gray-color;
+  padding: 30px 23px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &_btn_group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  @media (max-width: $medium-weight) {
+    width: auto;
+    border-right: none;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0;
+  }
+  @media (max-width: $small-weight) {
+    padding: 10px 20px;
+  }
+}

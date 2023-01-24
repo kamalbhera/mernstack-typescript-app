@@ -1,0 +1,39 @@
+@import 'src/styles/variables.scss';
+.dropdown {
+  &__wrapper {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+  }
+  &__list {
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    right: -10px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    border: 1px solid $light-gray-color;
+    z-index: 1000;
+    box-shadow: 10px 10px 5px 0px rgba(34, 60, 80, 0.2);
+  }
+  &__list div {
+    padding: 10px;
+    z-index: 1000;
+    &:first-child {
+      border-radius: 15px 15px 0 0;
+    }
+    &:last-child {
+      border-radius: 0 0 15px 15px;
+    }
+  }
+  &__list div:hover {
+    background-color: lightgray;
+  }
+  &__arrow {
+    position: relative;
+    bottom: 2px;
+    color: white;
+  }
+}
